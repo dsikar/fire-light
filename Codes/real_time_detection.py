@@ -6,9 +6,32 @@ import cv2
 import time
 
 # loading the stored model from file
-model=load_model(r'Fire-64x64-color-v7-soft.h5')
+# model=load_model(r'Fire-64x64-color-v7-soft.h5')
+# model=load_model(r'take2.h5')
 
-cap = cv2.VideoCapture(r'VIDEO_FILE_NAME')
+# works but suspicious with no fire - more data needed ?
+model=load_model(r'take2.h5')
+# cap = cv2.VideoCapture(r'fire-lighter.mp4') # about 90%
+# cap = cv2.VideoCapture(r'fire-no-lighter.mp4') # 90% when off 99% when on
+# cap = cv2.VideoCapture(r'no-fire-lighter.mp4') # max probability about 82%
+cap = cv2.VideoCapture(r'empty-plus-fire.mp4') # <# 91% empty, <# 96% lighter, <# 99% lit lighter
+# Mixing an matching, testing lighter model with real fire:
+# model=load_model(r'take2.h5')
+# cap = cv2.VideoCapture(r'FireVid20.mp4') # 100%
+# cap = cv2.VideoCapture(r'NoFireVid10') # 92%
+# cap = cv2.VideoCapture(r'NoFireVid11.mp4') # 99%
+# model=load_model(r'take2.h5')
+# cap = cv2.VideoCapture(r'FireVid20.mp4') # 100%
+# cap = cv2.VideoCapture(r'NoFireVid10') # 92%
+# cap = cv2.VideoCapture(r'NoFireVid11.mp4') # 99%
+# model=load_model(r'Fire-64x64-color-v7-soft.h5')
+# cap = cv2.VideoCapture(r'fire-lighter.mp4') # < 5%
+# cap = cv2.VideoCapture(r'fire-no-lighter.mp4') # < 5%
+# cap = cv2.VideoCapture(r'no-fire-lighter.mp4') # < 5%
+
+# next, single image inference...
+
+
 time.sleep(2)
 
 if cap.isOpened(): # try to get the first frame
@@ -16,10 +39,8 @@ if cap.isOpened(): # try to get the first frame
 else:
     rval = False
 
-
 IMG_SIZE = 64
 # IMG_SIZE = 224
-
 
 #for i in range(2500):
 #    cap.read()
