@@ -143,7 +143,7 @@ while True:
 	label = "Fire Probability: " + str(fire_prob)
 	cv2.putText(orig, label, (10, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
 
-	cv2.imshow("Output", frame)
+	cv2.imshow("Output", orig)
 
 	## CNN END
 
