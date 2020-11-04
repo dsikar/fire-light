@@ -14,6 +14,11 @@ A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applica
  
 [MultipleTopLevelVIsDemoLink]: https://ni.github.io/webvi-examples/MultipleTopLevelVIs/Builds/Web%20Server/Configuration1/MultipleTopLevelVIs/
 
+## TODOS
+* change repo to one README.md with open in google colab link plus basic workshop info
+* keep two jupyter notebooks in src sub-directory, one with network, one with slides
+* archive the rest
+
 ### Citation
 ```
 @article{jadon2019firenet,
