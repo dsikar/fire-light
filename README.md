@@ -5,6 +5,7 @@ A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applica
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab_jp_nb_link] 
 [colab_jp_nb_link]: https://colab.research.google.com/github/dsikar/fire-light/blob/master/Codes/ColabTrain.ipynb
   
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
 ### Citation
 ```
 @article{jadon2019firenet,
