@@ -1,8 +1,8 @@
 # FireNet-LightWeight-Network-for-Fire-Detection
-> A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications
->>(Preprint of the research paper on this work is available at https://arxiv.org/abs/1905.11922v2. Please consider citing if you happen to use the codes or dataset.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab_jp_nb_link]
-
+A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applications  
+(Preprint of the research paper on this work is available at https://arxiv.org/abs/1905.11922v2. Please consider citing if you happen to use the codes or dataset.
+  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab_jp_nb_link] 
 [colab_jp_nb_link]: https://colab.research.google.com/github/dsikar/fire-light/blob/master/Codes/ColabTrain.ipynb
   
 ### Citation
