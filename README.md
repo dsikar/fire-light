@@ -5,9 +5,6 @@
 
 [colab_jp_nb_link]: https://colab.research.google.com/github/dsikar/fire-light/blob/master/Codes/ColabTrain.ipynb
   
-[comment]: <> our reference 
-[comment]: <> [![Multiple Top-Level VIs Demo Link](https://img.shields.io/badge/Details-Demo_Link-green.svg)][MultipleTopLevelVIsDemoLink]
-[comment]: <> [MultipleTopLevelVIsDemoLink]: https://ni.github.io/webvi-examples/MultipleTopLevelVIs/Builds/Web%20Server/Configuration1/MultipleTopLevelVIs/
 ### Citation
 ```
 @article{jadon2019firenet,
