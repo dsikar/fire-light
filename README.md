@@ -3,12 +3,17 @@ A Specialized Lightweight Fire & Smoke Detection Model for Real-Time IoT Applica
 (Preprint of the research paper on this work is available at https://arxiv.org/abs/1905.11922v2. Please consider citing if you happen to use the codes or dataset.
   
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab_jp_nb_link] 
+ 
 [colab_jp_nb_link]: https://colab.research.google.com/github/dsikar/fire-light/blob/master/Codes/ColabTrain.ipynb
   
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+  
+(https://colab.research.google.com/github/weiji14/deepbedmap/]
   
 [![Multiple Top-Level VIs Demo Link](https://img.shields.io/badge/Details-Demo_Link-green.svg)][MultipleTopLevelVIsDemoLink]
+ 
 [MultipleTopLevelVIsDemoLink]: https://ni.github.io/webvi-examples/MultipleTopLevelVIs/Builds/Web%20Server/Configuration1/MultipleTopLevelVIs/
+
 ### Citation
 ```
 @article{jadon2019firenet,
